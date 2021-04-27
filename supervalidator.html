@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Who is Bayarjargal">
+    <meta name="keywords" content="Bayarjargal, pROX">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/menu.css">
+    <script defer src="main2.js"></script>
+    <title>Super Validator</title>
+</head>
+<body id="back2">
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="hangman.html">Hangman Game</a></li>
+                        <li><a href="supervalidator.html">Super Validator</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="contact-form" >
+        <div class="container">
+            <h1 class="size large"> 
+               Super Validator
+            </h1>
+            <p id="error"></p>
+            <form id="form">
+                <div class="form-group">
+                    <strong><label for="name">Lastname</label></strong>
+                    <input type="text" id="lastname" placeholder="Та овогоо оруулна уу" required>
+                </div>
+                <div class="form-group">
+                    <strong><label for="name">Firstname</label></strong>
+                    <input type="text" name="name" id="name" placeholder="Та нэрээ оруулна уу" required>
+                </div>
+                <div class="form-group">
+                    <strong><label for="E-Mail">E-Mail</label></strong>
+                    <input type="email" name="email" id="email" placeholder="E-Mail хаягаа оруулна уу" required >
+                </div>
+                <div class="form-group">
+                    <strong><label for="name">Password</label></strong>
+                    <input type="password" name="password" id="password" placeholder="Нууц үгээ оруулна уу" required>
+                </div>
+                <div class="form-group">
+                    <strong><label for="name">Resgister number</label></strong>
+                    <input type="text" name="register" id="register" placeholder="Регистерийн дугаараа оруулна уу" required>
+                </div>
+                <div class="form-group">
+                    <strong><label for="name">Date of birth</label></strong>
+                    <input type="date" name="date" id="date" required>
+                </div>
+                
+                <input type="submit" class="btn" value="OK" onclick="checkForm()">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
